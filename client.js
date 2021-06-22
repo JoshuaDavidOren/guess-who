@@ -21,7 +21,7 @@ function prompt() {
 
 function theChoice() {
     if (thePrompt.name === $(this).attr('id')) {
-        alert('Thats it you found them').setTimeout('3');
+        alert('Thats it you found them');
         prompt();
     } else alert('not that person, try again!')
 }
